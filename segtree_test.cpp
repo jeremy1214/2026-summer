@@ -1,3 +1,6 @@
+#pragma GCC optimize("Ofast")
+#pragma GCC target("avx2")
+
 #include <bits/stdc++.h>
 using namespace std;
 #define endl "\n"
@@ -7,8 +10,6 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define cout_line cout<<"line"<<__LINE__<<endl
 #define cout_val(x) cout<<#x<<": "<<x<<endl
-#pragma GCC optimize("Ofast")
-#pragma GCC target("avx2")
 const long long mod=1e9+7;
 
 struct SegTree {
